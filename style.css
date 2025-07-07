@@ -1,0 +1,26 @@
+/* Default: Laptop/Desktop */
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #e0f7fa;
+  border: 2px solid #00796b;
+  font-family: Arial, sans-serif;
+}
+
+/* Tablet (max-width: 900px) */
+@media (max-width: 900px) {
+  .container {
+    width: 90%;
+    background-color: #ffe082;
+  }
+}
+
+/* Phone (max-width: 600px) */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    background-color: #ffccbc;
+    text-align: center;
+  }
+}

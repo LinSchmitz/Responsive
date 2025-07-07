@@ -1,1 +1,26 @@
 # Responsive
+
+## ✅ What is Responsive Design?
+
+Responsive design means your webpage adapts to different screen sizes (like mobile, tablet, laptop) — so it looks good everywhere.
+
+### ✅ Step-by-Step Example
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hello, I'm Responsive!</h1>
+    <p>This layout changes based on your screen size.</p>
+  </div>
+</body>
+</html>
+
+```
