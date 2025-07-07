@@ -6,21 +6,17 @@ Responsive design means your webpage adapts to different screen sizes (like mobi
 
 ### ✅ Step-by-Step Example
 
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Page</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Hello, I'm Responsive!</h1>
-    <p>This layout changes based on your screen size.</p>
-  </div>
-</body>
-</html>
+### ✅ How It Works:
 
-```
+Device Condition Style Change
+💻 Laptop > 900px Fixed 1100px width and teal background
+📱 Tablet <= 900px 90% width and yellow background
+📞 Phone <= 600px 95% width, coral background, centered text
+
+### ✅ Key Concepts
+
+@media (max-width: ...) checks screen size.
+
+Style inside media queries overwrites the default when the condition is true.
+
+Use % for width inside media queries to make it fluid.
